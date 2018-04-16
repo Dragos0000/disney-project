@@ -1,3 +1,16 @@
 {% extends 'base.html' %} {% block content %}
 <h2>{{ page_title }}</h2>
+<p>So you love the Disney princesses. Maybe you love them so much that you want to become a princess. That’s cool with us. They’re strong, independent ladies. If you’d like to add a bit of that Disney Princess magic to your routine, we suggest trying a combination of the following things. But remember: being you is the best thing you can ever be. So take the below as guidelines. Okay? Okay. Here we go:</p>
+{% for step in steps_data %}
+<div class="row">
+	<div class="col-lg-8 col-md-10 mx-auto">
+		<h4>{{loop.index}} - {{ step.name }}</h4>
+		<img class="img-fluid" src="{{step.image_source}}">
+		<span class="caption text-muted">{{step.description}}</span>
+	</div>
+</div>
+{% if loop.index != 9 %}
+<hr class="featurette-divider"> 
+{% endif %} 
+{% endfor %}
 {% endblock %}

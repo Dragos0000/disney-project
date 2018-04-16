@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Be open to new experiences, even if they scare you.",
+    "description": "Just take life one step at a time; scary things are sometimes the most worthwhile.",
+    "image_source": "../static/img/open_to.jpg"
+  },
+  {
+    "name": "Know your worth.",
+    "description": "You are not a prize to be won.",
+    "image_source": "../static/img/worth.jpg"
+  },
+  {
+    "name": "Look at the world from your own unique angle.",
+    "description": "There's only one you, and your voice, opinion, and ideas matter. Let them be heard!",
+    "image_source": "../static/img/angle.jpg"
+  },
+  {
+    "name": "Go after what you want and never give up.",
+    "description": "It might be exhausting and take longer than you want, but that makes it even sweeter when your dreams come true.",
+    "image_source": "../static/img/dreams.jpg"
+  },
+  {
+    "name": "Practice kindness.",
+    "description": "One small act can change someone else's life for the better.",
+    "image_source": "../static/img/kidness.jpg"
+  },
+  {
+    "name": "Respect the planet.",
+    "description": "The earth gives us so much, make sure you're giving something back.",
+    "image_source": "../static/img/respect.jpg"
+  },
+  {
+    "name": "Remember that sometimes all anyone needs is a friend.",
+    "description": "There's no limit to what you can do.",
+    "image_source": "../static/img/friend.jpg"
+  },
+  {
+    "name": "Dream big and often.",
+    "description": "Just take life one step at a time; scary things are sometimes the most worthwhile.",
+    "image_source": "../static/img/dreamBig.jpg"
+  },
+  {
+    "name": "Listen to your heart.",
+    "description": "Only you know what you want. Don't ignore that gut instinct!",
+    "image_source": "../static/img/heart.jpg"
+  }
+]

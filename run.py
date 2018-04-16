@@ -28,7 +28,10 @@ def contact():
 
 @app.route('/careers')
 def careers():
-    return render_template("careers.html", page_title="Prepare to be a princess")
+	data = []
+	with open("data/steps.json", "r") as json_data:
+		 data = json.load(json_data)
+		 return render_template("careers.html", page_title="Prepare to be a princess", steps_data = data)
 
 if __name__ == '__main__':
     app.run(debug=True)
