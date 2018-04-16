@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Snow White",
+    "description": "Snow White is most well known for her iconic dress with a blue bodice, puffy red and blue striped sleeves, an ankle-length yellow skirt with a self-sewn white petticoat and a high white collar. along with yellow shoes, a red cape, and a red bow in her hair. She is innocent, kind, gentle, sweet, and cheerful. Her generous, trusting and helpful nature can cause her trouble, as other people might take advantage of it, such as her vain and evil stepmother. Although she is sensitive and soft-spoken, she can be energetic and stern, such as when she told the Seven Dwarfs to wash their hands. Snow White is motherly, compassionate and delights in keeping house for the lovable Seven Dwarfs while she waits to meet her beloved prince again. With her kindness and ethereal beauty, Snow White charms every creature in the kingdom except the Queen.",
+    "image_source": "../static/img/Snow_White.jpg"
+  },
+    {
+    "name": "Cinderella",
+    "description": "Cinderella's father died when she was very young. Using this opportunity, Lady Tremaine forced her into becoming a slave of the household. Her only friends are the animals in the house. One day, the King made a royal ball for all the maidens in the kingdom so Prince Charming, his son, could marry. Cinderella was unable to go, as the dress made by her friends were torn by the stepsisters. By then, the Fairy Godmother appeared and gave her a dress and a carriage to go to the ball. However, the magic had its limits: by midnight, the miracles disappear. During the ball, Cinderella fell in love with the prince, but due to the magic's limit, she didn't know who he was. In the next day, the prince declared that whoever fit the glass slipper left by Cinderella would be his wife. Knowing that Cinderella was the one, Lady Tremaine jailed her in her own room when the Duke brought the slipper to her house. With the help of Jaq and Gus, she escaped, fit on the slipper, and lived happily with the prince.",
+    "image_source": "../static/img/Cinderella.jpg"
+  },
+      {
+    "name": "Aurora",
+    "description": "Aurora is kind, elegant, shy and sophisticated, as well as a hopeless romantic. At first, she is seen as a slightly naive and carefree young woman as a result of being sheltered for most of her life. Aurora is very loyal to her aunts and usually obeys their rules respectfully, although she may disagree with them. Since she was raised not to talk to strangers, Aurora was naturally startled and apprehensive when the handsome Prince Phillip appeared in the forest. However, she was drawn to him before remembering her aunts' rule about not talking to strangers. Aurora then compromised in agreeing to talk to him by arranging to meet him at her cottage, under the supervision of her aunts. In later media, she is shown to have matured and become more self-assured, independent and confident in her opinions and abilities.",
+    "image_source": "../static/img/Aurora.jpg"
+  },
+      {
+    "name": "Ariel",
+    "description": "Ariel was the 16 year old daughter of the sea king, King Triton, who hated humans. However, she wanted to know more about the humans and was fascinated by them. Her goal was set when she fell in love with a human prince Eric. Desperate, she traded her voice with the sea witch Ursula for human legs, which would last for three days. Before the sunset of the third day, she had to let Prince Eric kiss her with true love's kiss in order for her to become human permanently. However, Ursula kept thwarting Ariel's plans. By the third day, Ursula changed into a human with Ariel's voice, enchanting the prince. Nonetheless, Ariel had her voice back, but her father was changed into a polyp, and Ursula gained control of the trident and the seven seas. In the end, Eric stabbed Ursula with a broken ship, killing her. King Triton felt symphamthy for his daughter and bestowed her with legs.",
+    "image_source": "../static/img/Ariel.jpg"
+  },
+      {
+    "name": "Belle",
+    "description": "Belle is a very attractive young woman and is known throughout the village for her beauty, with one villager commenting that it has no parallel, but although she knows it, she isn't vain or concerned about her looks. She is greatly aware that her fellow citizens think of her as 'odd' and 'peculiar'. Belle pays very little attention to her appearance, unlike the very much conceited Gaston, who only wishes to wed her because she is attractive. He cares very little for her personality, her intelligence (he hates the very idea of a woman being smart) or the way she wants to live her life.Belle has long, brown hair, most often tied back in a low ponytail, and possesses captivating hazel eyes, full lips, rosy cheeks, and a sculpted figure.",
+    "image_source": "../static/img/Belle.jpg"
+  },
+      {
+    "name": "Jasmine",
+    "description": "Jasmine is the daughter of the Sultan of Agrabah, and thus, is a Princess. Jasmine's mother is rarely mentioned, and she is presumably dead. In the first film, Jasmine has become frustrated with the duties of being a princess, and longs for a life outside of the palace. This clashes with the fact that, according to the law, Jasmine must marry before her next birthday, which results in a problem because Jasmine wishes to marry for love rather than for wealth, glory and power. Jasmine is an official member of the Disney Princess franchise, and is so far the only Princess with an Arabian/Middle Eastern physical appearance.",
+    "image_source": "../static/img/Jasmine.jpg"
+  },
+      {
+    "name": "Pocahontas",
+    "description": "Pocahontas is a member of the Powhatan Indian tribe that makes their home in Virginia. She is the 18-year old daughter of Chief Powhatan. It is stated that Pocahontas' mother had died, and that Pocahontas had inherited her strong will and free spirit.Pocahontas is displayed as a noble, free-spirited and highly spiritual young woman. She expresses wisdom beyond her years and offers kindness and guidance to those around her. She loves adventure and nature.",
+    "image_source": "../static/img/Pocahontas.jpg"
+  },
+      {
+    "name": "Mulan",
+    "description": "Mulan possess no magical or superhuman powers. But she has military training ranging from use of swords to kung fu fighting style thanks to Shang in his training of new army recruits. Mulan also demonstrated accuracy during her training with the use of her archery skills. Mulan was trained how to sword fight by her father in Rise of the Warrior. Mulan is also intelligent and resourceful as she was able to quickly think of using the last rocket to cause an avalanche on the entire Hun army and lure Shan-Yu into Mushu's firing range. Her intellect is also proven by her skills in strategy during the Hun invasion.",
+    "image_source": "../static/img/Mulan.jpg"
+  },
+      {
+    "name": "Rapunzel",
+    "description": "Rapunzel is a spirited, smart, clever, kind, playful, and a very adventurous girl in her late teens, though a bit naive. However, she is not afraid to stand up for herself or others when the situation calls for bravery. Having spent all of her life isolated in a tower with little else to do, she is proficiently educated in literature, and talented in almost all areas such as music and baking and even more advanced subjects like astronomy, as illustrated by her completely charted astronomical patterns. Her greatest passion is art, as indicated by the pervasive amount of painting on the walls inside the tower. While she longs to see the world beyond her window, she is very obedient to Mother Gothel.",
+    "image_source": "../static/img/Rapunzel.jpg"
+  },
+      {
+    "name": "Merida",
+    "description": "Merida is a very brave, bold, daring, courageous, stubborn, rebellious and headstrong girl who does not fit the stereotypical princess role. Rather than being a damsel in distress who is subservient to the customs, traditions, and social restrictions her society places on her and expects her to follow, Merida openly rebels and defies her heritage as a princess and would like for nothing more than to be a normal girl. She is very athletic and enjoys nothing more than riding her horse Angus and practicing her archery, of which she is the best in the kingdom. She also seems to be skilled in sword fighting, as shown in the Brave featurette 'Cutting the Class'. She tends to be ungraceful and has bad manners, and is extremely tomboyish.",
+    "image_source": "../static/img/Merida2.jpg"
+  }
+]

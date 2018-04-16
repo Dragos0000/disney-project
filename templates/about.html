@@ -1,28 +1,36 @@
 {% extends 'base.html' %} {% block content %}
 <h2>{{ page_title }}</h2>
-<p>Each of the following 11 princesses has been certified as an "Official Disney Princess." Some were born into the title (e.g. Aurora, Merida), some married the son of a king (e.g. Cinderella), some married a Reigning Prince (e.g. Belle), and some correspond to an equivalent title (e.g. Chieftain's Daughter and Sultan's Daughter). So far, the one exception to these rules is Mulan; she is currently the only Official Disney Princess who neither comes from a royal bloodline nor marries into royalty.
+<p>Each of the following 10 princesses has been certified as an "Official Disney Princess." Some were born into the title (e.g. Aurora, Merida), some married the son of a king (e.g. Cinderella), some married a Reigning Prince (e.g. Belle), and some correspond to an equivalent title (e.g. Chieftain's Daughter and Sultan's Daughter). So far, the one exception to these rules is Mulan; she is currently the only Official Disney Princess who neither comes from a royal bloodline nor marries into royalty.
 Born into Royalty: Snow White, Aurora, Ariel, Jasmine (as a Sultan's daughter), Rapunzel, and Merida. Pocahontas is considered to be of royal heritage, as she is the daughter of a chief and therefore considered Native American royalty by the English. Elena is also of royal lineage, though she has yet to be officially inducted as a Disney Princess.
 Royal by Marriage: Cinderella, Belle, and Tiana become royalty by marriage.
 Not Royal: Mulan is royal by neither birth nor marriage, but is still included in the line-up as she meets other requirements and received grace from the Emperor after saving China.</p>
 
-<div class="row feature">
+{% for princess in princess_data %}
+{% if loop.index % 2 != 0 %}
+
+<div class="row featurette">
 	<div class="col-md-8">
-		<h3>Snow White</h3>
-		<p>Snow White, titular character of the 1937 Disney movie Snow White and the Seven Dwarfs, is a character based on the German fairy tale "Schneewittchen." Snow White has the honor of being the first Princess in the first Disney animated feature, paving the way for all subsequent princesses. Adriana Caselotti provides the voice/singing voice for Snow White. Her true love is the Prince, who is able to wake her from her eternal sleep with true love's kiss. At 14, she is the youngest of the official Disney Princesses.</p>
+		<h3>{{loop.index}}. {{ princess.name }}</h3>
+		<p>{{ princess.description }}</p>
 	</div>
 	<div class="col-md-4">
-		<img src="../static/img/Snow_White.jpg">
+		<img class="featurette-image img-responsive" src="{{ princess.image_source }}" alt="image of {{ princess.name }}">
 
 	</div>
 </div>
+{% else %}
 <div class="row feature">
 	<div class="col-md-4">
-		<img src="../static/img/Cinderella.jpg">
+		<img class="featurette-image img-responsive" src="{{ princess.image_source }}" alt="image of {{ princess.name }}">
 	</div>
 	<div class="col-md-8">
-		<h3>Cinderella</h3>
-		<p>Cinderella is the main protagonist of her eponymous film and two sequels and is the second Disney Princess. She is based on the European fairy tale of the same name, of which several variations exist. Ilene Woods provides the voice/singing voice for Cinderella (Original Disney version), Jennifer Hale provides the voice of Cinderella in the sequels, Tami Tappan provides Cinderella's singing voice in Cinderella III. Cinderella is the first Disney Princess to have siblings (albeit step-siblings) and is 19 years old. Cinderella is the first Disney Princess who is married into royalty (she marries Prince Charming).</p>
+		<h3>{{loop.index}}. {{ princess.name }}</h3>
+		<p>{{ princess.description }}</p>
 	</div>
-	
 </div>
+{% endif %} 
+{% if loop.index != 10 %}
+<hr class="featurette-divider"> 
+{% endif %} 
+{% endfor %} 
 {% endblock %}
